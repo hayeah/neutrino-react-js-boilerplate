@@ -9,7 +9,7 @@ import { render } from "react-dom"
 const view = (
   <div>
     <h1>
-      Hello React TypeScript <span className="fa fa-heart" />
+      Hello Neutrino React<span className="fa fa-heart" />
     </h1>
 
     <h2>
