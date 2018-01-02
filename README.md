@@ -2,7 +2,7 @@
 Clone repo:
 
 ```
-git clone https://github.com/hayeah/neutrino-react-ts-boilerplate.git my-project
+git clone https://github.com/hayeah/neutrino-react-js-boilerplate.git my-project
 ```
 
 Install dependencies:
@@ -17,7 +17,7 @@ Start Neutrino dev server on port 3000:
 PORT=3000 yarn start
 ```
 
-Open http://localhost:3000, and edit `src/index.tsx` for live-reload.
+Open http://localhost:3000, and edit `src/index.js` for live-reload.
 
 For styling, edit `src/index.css`.
 
@@ -30,28 +30,6 @@ You may need to configure different constants depending on which build environme
 You can add or override JavaScript global constants by modifying the files in the [config](https://github.com/hayeah/neutrino-react-ts-boilerplate/tree/master/config) directory.
 
 See [config npm module](https://www.npmjs.com/package/config) for details.
-
-# Node JS
-
-Aside from frontend, you can also write NodeJS scripts in TypeScript. Put your scripts in [src/scripts](src/scripts), and compile by running:
-
-```
-yarn run ts-build
-```
-
-The scripts will be compiled to `lib/scripts`. Run with node:
-
-```
-node lib/scripts/hello.js
-```
-
-To automatically rebuild, run:
-
-```
-yarn run ts-watch
-```
-
-
 
 # Other Tips
 
